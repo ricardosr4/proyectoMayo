@@ -9,6 +9,7 @@ class ActivityHome : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        navigation()
     }
     fun navigation(){
         binding.btRandom.setOnClickListener {
