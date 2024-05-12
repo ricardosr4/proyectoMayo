@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">ProyectoMayo</string>
+    <!-- activity home -->
+    <string name="search_home">Search</string>
+    <string name="friend_home">Friend</string>
+    <string name="bt_random">Aleatorio</string>
+    <string name="bt_us">Nosotros</string>
+    <string name="bt_puppies">Perritos</string>
+    <string name="bt_search">Buscar</string>
+
 </resources>

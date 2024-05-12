@@ -12,4 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
     }
+    fun navigation(){
+
+
+
+    }
 }
+
