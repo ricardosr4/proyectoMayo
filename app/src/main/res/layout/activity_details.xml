@@ -5,6 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.activity.ActivityDetails">
+    tools:context=".ui.details.presenter.ActivityDetails">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

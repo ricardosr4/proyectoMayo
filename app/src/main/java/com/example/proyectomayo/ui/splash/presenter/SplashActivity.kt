@@ -1,17 +1,17 @@
-package com.example.proyectomayo
+package com.example.proyectomayo.ui.splash.presenter
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
-import com.example.proyectomayo.databinding.ActivityMainBinding
-import com.example.proyectomayo.view.activity.ActivityHome
+import com.example.proyectomayo.databinding.ActivitySplashBinding
+import com.example.proyectomayo.ui.home.presenter.ActivityHome
 
-class MainActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityMainBinding
+
+class SplashActivity : AppCompatActivity() {
+    private lateinit var binding: ActivitySplashBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivitySplashBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         val intent = Intent(this, ActivityHome::class.java)

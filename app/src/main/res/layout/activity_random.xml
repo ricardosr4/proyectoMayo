@@ -5,6 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.activity.ActivityRandom">
+    tools:context=".ui.random.presenter.ActivityRandom">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,8 +1,14 @@
-package com.example.proyectomayo.view.activity
+package com.example.proyectomayo.ui.home.presenter
+
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.proyectomayo.databinding.ActivityHomeBinding
+import com.example.proyectomayo.ui.puppies.presenter.ActivityPuppies
+import com.example.proyectomayo.ui.random.presenter.ActivityRandom
+import com.example.proyectomayo.ui.search.presenter.ActivitySearch
+import com.example.proyectomayo.ui.us.presenter.ActivityUs
+
 class ActivityHome : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -11,7 +17,8 @@ class ActivityHome : AppCompatActivity() {
         setContentView(binding.root)
         navigation()
     }
-    fun navigation(){
+
+    fun navigation() {
         binding.btRandom.setOnClickListener {
             val myIntent = Intent(this, ActivityRandom::class.java)
             startActivity(myIntent)
