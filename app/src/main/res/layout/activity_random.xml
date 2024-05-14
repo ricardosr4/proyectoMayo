@@ -7,4 +7,34 @@
     android:layout_height="match_parent"
     tools:context=".ui.random.presenter.ActivityRandom">
 
+    <TextView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/random_search"
+        android:textColor="@color/orange_home"
+        android:shadowColor="@color/grey"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="25dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/random_friend"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:background=""
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/search"/>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
