@@ -1,4 +1,4 @@
-package com.example.proyectomayo.view.activity
+package com.example.proyectomayo.ui.search.presenter
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.proyectomayo.databinding.ActivitySearchBinding
