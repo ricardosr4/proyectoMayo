@@ -1,8 +1,6 @@
 package com.example.proyectomayo.ui.puppies.presenter
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.GridLayoutManager
 import com.example.proyectomayo.databinding.ActivityPuppiesBinding
 import com.example.proyectomayo.response.DogsResponse
 import com.example.proyectomayo.ui.puppies.adapter.Adapter
@@ -13,6 +11,8 @@ class ActivityPuppies : AppCompatActivity() {
         super.onCreate(savedInstanceState)
        binding = ActivityPuppiesBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        //recyclerView()
     }
 
     fun recyclerView(){

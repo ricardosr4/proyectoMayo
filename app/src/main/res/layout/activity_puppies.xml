@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="#FEFEFE"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.puppies.presenter.ActivityPuppies">
@@ -37,11 +38,11 @@
         android:id="@+id/recyler_puppies"
         android:layout_width="370dp"
         android:layout_height="500dp"
-        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintTop_toBottomOf="@id/guide_line"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:listitem="@layout/recycler_puppies"
+        tools:listitem="@layout/item_puppie"
         />
 
 
@@ -54,6 +55,7 @@
         android:layout_marginEnd="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/recyler_puppies">
+
         <ImageView
             android:id="@+id/iv_back"
             android:layout_width="30dp"

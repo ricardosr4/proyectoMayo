@@ -6,13 +6,13 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.proyectomayo.R
-import com.example.proyectomayo.databinding.RecyclerPuppiesBinding
+import com.example.proyectomayo.databinding.ItemPuppieBinding
 import com.example.proyectomayo.response.DogsResponse
 import com.squareup.picasso.Picasso
 
 class Adapter(private val miList : List<DogsResponse>) : RecyclerView.Adapter<MyHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.recycler_puppies,parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_puppie,parent, false)
         return MyHolder(view)
     }
 
@@ -26,7 +26,7 @@ class Adapter(private val miList : List<DogsResponse>) : RecyclerView.Adapter<My
 
 class MyHolder(private val view : View) : ViewHolder(view) {
 
-    private val binding = RecyclerPuppiesBinding.bind(view)
+    private val binding = ItemPuppieBinding.bind(view)
     fun render(data : DogsResponse){
         Picasso.get().load(data.image).into(binding.imagePuppie)
 
