@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.example.proyectomayo.app-mergeDebugResources-31:/layout/activity_us.xml",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_us.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-mergeDebugResources-31:/layout/activity_random.xml",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_random.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-mergeDebugResources-31:/layout/activity_splash.xml",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-mergeDebugResources-31:/layout/activity_search.xml",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-mergeDebugResources-31:/layout/activity_puppies.xml",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_puppies.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-mergeDebugResources-31:/layout/activity_details.xml",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_details.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-mergeDebugResources-31:/layout/activity_home.xml",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_home.xml"
+    }
+]

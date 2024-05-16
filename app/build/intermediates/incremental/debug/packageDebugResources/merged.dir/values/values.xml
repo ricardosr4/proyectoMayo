@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="black_friend">#000000</color>
+    <color name="grey">#EDEDED</color>
+    <color name="orange_home">#E87F01</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="width_aleatorio">#E9E9E9</color>
+    <string name="adopt_me">Adoptame</string>
+    <string name="adoptar">Adoptar</string>
+    <string name="app_name">ProyectoMayo</string>
+    <string name="bt_puppies">Perritos</string>
+    <string name="bt_random">Aleatorio</string>
+    <string name="bt_search">Buscar</string>
+    <string name="bt_us">Nosotros</string>
+    <string name="friend_home">Friend</string>
+    <string name="integrantes">Integrantes</string>
+    <string name="search_home">Search</string>
+    <string name="sobre_nosotros">Sobre Nosotros</string>
+</resources>

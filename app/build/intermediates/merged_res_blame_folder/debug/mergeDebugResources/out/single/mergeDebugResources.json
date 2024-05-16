@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/layout_activity_us.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_us.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/drawable_img_logo_detail.png.flat",
+        "source": "com.example.proyectomayo.app-main-34:/drawable/img_logo_detail.png"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/drawable_home_aleatorio_nosotros.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/drawable/home_aleatorio_nosotros.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/drawable_home_menu.png.flat",
+        "source": "com.example.proyectomayo.app-main-34:/drawable/home_menu.png"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/layout_activity_random.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_random.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/layout_activity_search.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_search.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/drawable_img_menu_detail.png.flat",
+        "source": "com.example.proyectomayo.app-main-34:/drawable/img_menu_detail.png"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/drawable_ic_back.png.flat",
+        "source": "com.example.proyectomayo.app-main-34:/drawable/ic_back.png"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/drawable_home_buscar.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/drawable/home_buscar.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/layout_activity_splash.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/drawable_img_example.jpg.flat",
+        "source": "com.example.proyectomayo.app-main-34:/drawable/img_example.jpg"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/layout_activity_puppies.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_puppies.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/drawable_home_perritos.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/drawable/home_perritos.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/layout_activity_details.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_details.xml"
+    },
+    {
+        "merged": "com.example.proyectomayo.app-debug-32:/layout_activity_home.xml.flat",
+        "source": "com.example.proyectomayo.app-main-34:/layout/activity_home.xml"
+    }
+]
