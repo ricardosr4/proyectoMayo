@@ -8,5 +8,8 @@
     <string name="bt_puppies">Perritos</string>
     <string name="bt_search">Buscar</string>
     <string name="adopt_me">Adoptame</string>
+    <!-- activity random -->
+    <string name="random_search">Search</string>
+    <string name="random_friend">Friend</string>
 
 </resources>
