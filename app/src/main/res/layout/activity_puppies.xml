@@ -41,7 +41,8 @@
         app:layout_constraintTop_toBottomOf="@id/guide_line"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        tools:listitem="@layout/recycler_puppies"/>
+        tools:listitem="@layout/recycler_puppies"
+        />
 
 
 
