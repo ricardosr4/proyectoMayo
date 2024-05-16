@@ -13,25 +13,25 @@
         android:theme="@style/Theme.ProyectoMayo"
         tools:targetApi="31">
         <activity
-            android:name=".view.activity.ActivityDetails"
+            android:name=".ui.details.presenter.ActivityDetails"
             android:exported="false" />
         <activity
-            android:name=".view.activity.ActivitySearch"
+            android:name=".ui.search.presenter.ActivitySearch"
             android:exported="false" />
         <activity
-            android:name=".view.activity.ActivityUs"
+            android:name=".ui.us.presenter.ActivityUs"
             android:exported="false" />
         <activity
-            android:name=".view.activity.ActivityPuppies"
+            android:name=".ui.puppies.presenter.ActivityPuppies"
             android:exported="false" />
         <activity
-            android:name=".view.activity.ActivityRandom"
+            android:name=".ui.random.presenter.ActivityRandom"
             android:exported="false" />
         <activity
-            android:name=".view.activity.ActivityHome"
+            android:name=".ui.home.presenter.ActivityHome"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.splash.presenter.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
