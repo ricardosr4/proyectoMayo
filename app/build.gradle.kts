@@ -39,7 +39,7 @@ android {
 }
 
 dependencies {
-    //picasso
+
     implementation("com.squareup.picasso:picasso:2.71828")
     //Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
@@ -52,7 +52,6 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.lottie)
-    implementation(libs.compose.preview.renderer)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
