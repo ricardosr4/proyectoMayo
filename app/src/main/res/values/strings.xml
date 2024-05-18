@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">ProyectoMayo</string>
+
     <!-- activity home -->
     <string name="search_home">Search</string>
     <string name="friend_home">Friend</string>
@@ -9,13 +10,22 @@
     <string name="bt_search">Buscar</string>
     <string name="adopt_me">Adoptame</string>
 
+    <!-- activity us -->
     <string name="integrantes">Integrantes</string>
     <string name="sobre_nosotros">Sobre Nosotros</string>
+
+    <!-- activity details -->
     <string name="adoptar">Adoptar</string>
 
     <!-- activity random -->
     <string name="random_search">Search</string>
     <string name="random_friend">Friend</string>
+
+    <!-- activity puppies -->
+    <string name="puppies_volver">Volver</string>
+
+    <!-- activity search -->
+    <string name="search_volver">Volver</string>
 
 
 </resources>
