@@ -19,8 +19,8 @@ class SplashActivity : AppCompatActivity() {
         showScreen()
     }
 
-    private fun showScreen(){
-        object : CountDownTimer(3000,1000) {
+    private fun showScreen() {
+        object : CountDownTimer(3000, 1000) {
             override fun onTick(millisUntilFinished: Long) {
 
             }
