@@ -1,4 +1,4 @@
-package com.example.proyectomayo.response
+package com.example.proyectomayo.data.dto.response
 
 import com.google.gson.annotations.SerializedName
 

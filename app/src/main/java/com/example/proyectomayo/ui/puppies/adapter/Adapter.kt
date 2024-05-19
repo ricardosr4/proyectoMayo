@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.proyectomayo.R
 import com.example.proyectomayo.databinding.ItemPuppieBinding
-import com.example.proyectomayo.response.DogsResponse
+import com.example.proyectomayo.data.dto.response.DogsResponse
 import com.squareup.picasso.Picasso
 
 class Adapter(private val miList: List<DogsResponse>) : RecyclerView.Adapter<MyHolder>() {
