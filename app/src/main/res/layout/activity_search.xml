@@ -107,7 +107,7 @@
             android:id="@+id/tv_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Volver"
+            android:text="@string/search_volver"
             android:textColor="@color/white"
             android:textSize="20sp"
             android:layout_marginTop="20sp"
