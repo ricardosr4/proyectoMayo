@@ -5,7 +5,7 @@
     android:layout_margin="5dp">
 
     <ImageView
-        android:id="@+id/image_puppie"
+        android:id="@+id/image_puppy"
         android:layout_width="110dp"
         android:layout_height="110dp"
         android:scaleType="centerCrop" />
