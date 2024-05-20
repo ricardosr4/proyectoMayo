@@ -5,7 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.proyectomayo.databinding.ActivityPuppiesBinding
-import com.example.proyectomayo.data.dto.response.DogsResponse
+import com.example.proyectomayo.data.dto.response.DogResponse
 import com.example.proyectomayo.ui.home.presenter.ActivityHome
 import com.example.proyectomayo.ui.puppies.adapter.Adapter
 
@@ -45,8 +45,8 @@ class ActivityPuppies : AppCompatActivity() {
         }
     }
 
-    fun getLista(): List<DogsResponse> {
-        return listOf<DogsResponse>()
+    fun getLista(): List<DogResponse> {
+        return listOf<DogResponse>()
     }
 
 }

@@ -1,11 +1,11 @@
 package com.example.proyectomayo.data.service
 
-import com.example.proyectomayo.data.dto.response.DogsResponse
-import okhttp3.Response
+import com.example.proyectomayo.data.dto.response.DogResponse
+import retrofit2.Response
 import retrofit2.http.GET
 
 interface DogService {
 
-    @GET("breeds/image/random/50")
-    fun getDogs() : Response
+    @GET("breed/hound/images")
+    fun getDogs(): Response<DogResponse>
 }
