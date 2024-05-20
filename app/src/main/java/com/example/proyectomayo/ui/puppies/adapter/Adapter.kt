@@ -28,7 +28,7 @@ class MyHolder(private val view: View) : ViewHolder(view) {
 
     private val binding = ItemPuppieBinding.bind(view)
     fun render(data: DogResponse) {
-        Picasso.get().load(data.image).into(binding.imagePuppie)
+        Picasso.get().load(data.).into(binding.imagePuppie)
 
     }
 }
