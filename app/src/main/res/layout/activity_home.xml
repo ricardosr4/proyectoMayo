@@ -45,8 +45,8 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_random"
-        android:layout_width="95dp"
-        android:layout_height="100dp"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/home_aleatorio_nosotros"
@@ -58,9 +58,9 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_puppies"
-        android:layout_width="95dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="6dp"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="7dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/home_perritos"
         android:text="@string/bt_puppies"
@@ -71,9 +71,9 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_us"
-        android:layout_width="95dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="6dp"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="7dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/home_aleatorio_nosotros"
         android:text="@string/bt_us"
@@ -83,9 +83,9 @@
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_search"
-        android:layout_width="95dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="6dp"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:layout_marginStart="7dp"
         android:layout_marginTop="50dp"
         android:background="@drawable/home_buscar"
         android:text="@string/bt_search"
@@ -110,10 +110,11 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_home"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="50dp"
+        android:layout_height="300dp"
         android:orientation="horizontal"
-        app:layout_constraintTop_toBottomOf="@id/adopt_me" />
+        app:layout_constraintTop_toBottomOf="@id/adopt_me"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/item_home"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

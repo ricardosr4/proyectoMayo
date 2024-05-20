@@ -18,7 +18,7 @@ class ActivityHome : AppCompatActivity() {
         navigation()
     }
 
-    fun navigation() {
+    private fun navigation() {
         binding.btRandom.setOnClickListener {
             val myIntent = Intent(this, ActivityRandom::class.java)
             startActivity(myIntent)

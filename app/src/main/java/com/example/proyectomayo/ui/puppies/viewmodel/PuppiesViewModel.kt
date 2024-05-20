@@ -8,7 +8,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 
-class DogViewModel(private val repository: DogRepository = DogRepository()) : ViewModel() {
+class PuppiesViewModel(private val repository: DogRepository = DogRepository()) : ViewModel() {
 
     private val _data = MutableLiveData<State>()
     val data: LiveData<State> = _data
