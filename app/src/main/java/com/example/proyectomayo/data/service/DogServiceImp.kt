@@ -15,7 +15,7 @@ class DogServiceImp {
 
     private val service = retrofit.create<DogService>()
 
-    fun getDogs(): Response<DogResponse> {
+    suspend fun getDogs(): Response<DogResponse> {
         return service.getDogs()
     }
 }

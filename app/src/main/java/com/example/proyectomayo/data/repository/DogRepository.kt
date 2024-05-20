@@ -6,7 +6,7 @@ import retrofit2.Response
 
 class DogRepository(private val service: DogServiceImp = DogServiceImp()) {
 
-    fun getDogs(): Response<DogResponse> {
+    suspend fun getDogs(): Response<DogResponse> {
         return service.getDogs()
     }
 }
