@@ -19,6 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/image_paw"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginEnd="25dp"
@@ -35,14 +36,14 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyler_puppies"
+        android:id="@+id/recycler_puppies"
         android:layout_width="370dp"
         android:layout_height="480dp"
         android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/guide_line"
-        tools:listitem="@layout/item_puppie" />
+        tools:listitem="@layout/item_puppy" />
 
 
     <androidx.cardview.widget.CardView
@@ -54,7 +55,7 @@
         android:background="@drawable/activity_puppies_cardview"
         app:cardCornerRadius="30dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/recyler_puppies">
+        app:layout_constraintTop_toBottomOf="@id/recycler_puppies">
 
         <ImageView
             android:id="@+id/iv_back"
@@ -76,7 +77,7 @@
         app:cardBackgroundColor="@color/black"
         app:cardCornerRadius="30dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/recyler_puppies">
+        app:layout_constraintTop_toBottomOf="@id/recycler_puppies">
 
         <TextView
             android:id="@+id/tv_back"
@@ -91,4 +92,18 @@
 
     </androidx.cardview.widget.CardView>
 
+    <RelativeLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:elevation="3dp"
+        android:background="#59272626">
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="100dp" />
+
+    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

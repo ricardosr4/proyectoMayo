@@ -41,6 +41,10 @@ android {
 dependencies {
 
     implementation("com.squareup.picasso:picasso:2.71828")
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.3.1")
+    // Activity
+    implementation("androidx.activity:activity-ktx:1.2.2")
     //Retrofit
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
