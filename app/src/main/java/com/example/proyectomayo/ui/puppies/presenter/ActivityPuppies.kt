@@ -7,6 +7,7 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.proyectomayo.databinding.ActivityPuppiesBinding
+import com.example.proyectomayo.ui.details.presenter.ActivityDetails
 import com.example.proyectomayo.ui.home.presenter.ActivityHome
 import com.example.proyectomayo.ui.puppies.adapter.Adapter
 import com.example.proyectomayo.ui.puppies.viewmodel.PuppiesViewModel
@@ -15,6 +16,10 @@ import com.example.proyectomayo.ui.random.presenter.ActivityRandom
 
 class ActivityPuppies : AppCompatActivity() {
     private lateinit var binding: ActivityPuppiesBinding
+
+    companion object{
+        var randomValueItem = ""
+    }
 
     private val viewModel by viewModels<PuppiesViewModel>()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,6 +37,12 @@ class ActivityPuppies : AppCompatActivity() {
             val myIntent = Intent(this, ActivityPuppies::class.java)
             startActivity(myIntent)
         }
+    }
+
+    private val navigation = fun(url : String){
+        val intent = Intent(this, ActivityDetails::class.java)
+        randomValueItem = url
+        startActivity(intent)
     }
 
     private fun call() {
@@ -66,7 +77,7 @@ class ActivityPuppies : AppCompatActivity() {
     }
 
     private fun initRecyclerView(list: List<String>) {
-        val adapter = Adapter(list)
+        val adapter = Adapter(list) { navigation(it)}
         val gridLayoutManager = GridLayoutManager(this, 3)
 
         binding.recyclerPuppies.layoutManager = gridLayoutManager
