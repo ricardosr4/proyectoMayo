@@ -9,13 +9,13 @@ import androidx.recyclerview.widget.GridLayoutManager
 import com.example.proyectomayo.databinding.ActivityPuppiesBinding
 import com.example.proyectomayo.ui.home.presenter.ActivityHome
 import com.example.proyectomayo.ui.puppies.adapter.Adapter
-import com.example.proyectomayo.ui.puppies.viewmodel.DogViewModel
+import com.example.proyectomayo.ui.puppies.viewmodel.PuppiesViewModel
 import com.example.proyectomayo.ui.puppies.viewmodel.State
 
 class ActivityPuppies : AppCompatActivity() {
     private lateinit var binding: ActivityPuppiesBinding
 
-    private val viewModel by viewModels<DogViewModel>()
+    private val viewModel by viewModels<PuppiesViewModel>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPuppiesBinding.inflate(layoutInflater)
