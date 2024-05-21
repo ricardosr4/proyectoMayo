@@ -7,7 +7,6 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.proyectomayo.databinding.ActivityPuppiesBinding
-import com.example.proyectomayo.data.dto.response.DogsResponse
 import com.example.proyectomayo.ui.home.presenter.ActivityHome
 import com.example.proyectomayo.ui.puppies.adapter.Adapter
 import com.example.proyectomayo.ui.puppies.viewmodel.DogViewModel

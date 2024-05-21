@@ -8,4 +8,5 @@ interface DogService {
 
     @GET("breeds/image/random/50")
     suspend fun getDogs(): Response<DogResponse>
+
 }
