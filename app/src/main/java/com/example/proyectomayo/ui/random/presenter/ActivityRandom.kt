@@ -6,6 +6,7 @@ import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.proyectomayo.databinding.ActivityRandomBinding
+import com.example.proyectomayo.ui.details.presenter.ActivityDetails
 import com.example.proyectomayo.ui.home.presenter.ActivityHome
 import com.example.proyectomayo.ui.puppies.viewmodel.PuppiesViewModel
 import com.example.proyectomayo.ui.puppies.viewmodel.State
@@ -15,6 +16,10 @@ import com.squareup.picasso.Picasso
 
 class ActivityRandom : AppCompatActivity() {
     private lateinit var binding: ActivityRandomBinding
+
+    companion object{
+        var valueItem = ""
+    }
 
     private val viewModel by viewModels<RandomViewModel>()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -43,6 +48,11 @@ class ActivityRandom : AppCompatActivity() {
                 is RandomState.Success -> {
                     hideLoading()
                     val picasso = Picasso.get().load(data.info.message ?: "").into(binding.imagenPerrito)
+                    valueItem = data.info.message ?: ""
+                    binding.imagenPerrito.setOnClickListener {
+                        val intent = Intent(this, ActivityDetails::class.java)
+                        valueItem = data.info.message ?: ""
+                        startActivity(intent) }
                 }
 
                 is RandomState.Loading -> {
