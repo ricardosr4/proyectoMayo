@@ -11,6 +11,7 @@ import com.example.proyectomayo.ui.home.presenter.ActivityHome
 import com.example.proyectomayo.ui.puppies.adapter.Adapter
 import com.example.proyectomayo.ui.puppies.viewmodel.PuppiesViewModel
 import com.example.proyectomayo.ui.puppies.viewmodel.State
+import com.example.proyectomayo.ui.random.presenter.ActivityRandom
 
 class ActivityPuppies : AppCompatActivity() {
     private lateinit var binding: ActivityPuppiesBinding
@@ -24,6 +25,13 @@ class ActivityPuppies : AppCompatActivity() {
         navigateToHome2()
         call()
         observer()
+        reload()
+    }
+    private fun reload(){
+        binding.imagePaw.setOnClickListener {
+            val myIntent = Intent(this, ActivityPuppies::class.java)
+            startActivity(myIntent)
+        }
     }
 
     private fun call() {
