@@ -48,10 +48,10 @@ class ActivityRandom : AppCompatActivity() {
                 is RandomState.Success -> {
                     hideLoading()
                     val picasso = Picasso.get().load(data.info.message ?: "").into(binding.imagenPerrito)
-                    valueItem = data.info.message!!
+                    valueItem = data.info.message ?: ""
                     binding.imagenPerrito.setOnClickListener {
                         val intent = Intent(this, ActivityDetails::class.java)
-                        valueItem = data.info.message
+                        valueItem = data.info.message ?: ""
                         startActivity(intent) }
                 }
 
